@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="component">
+            <div class="counter">
+                <h1>Metric/Imperial unit conversion</h1>
+                <input type="number" id="initial-number" oninput="setMetric()" onfocus="this.value=''"></input>
+            </div>
+            <div class="conversions">
+                <ul>
+                    <li>
+                        <h3>Length (Meter/Feet)</h3>
+                        <p>
+                            <span class="fixed-number"></span>metters = 
+                            <span id="feet"></span>feet | 
+                            <span class="fixed-number"></span>feet = 
+                            <span id="metters"></span>metters
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Volume (Liters/Gallons)</h3>
+                        <p>
+                            <span class="fixed-number"></span>liters = 
+                            <span id="gallons"></span>gallons | 
+                            <span class="fixed-number"></span>gallons = 
+                            <span id="liters"></span>liters
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Mass (Kilograms/Pounds)</h3>
+                        <p>
+                            <span class="fixed-number"></span>kilos = 
+                            <span id="pounds"></span>pounds | 
+                            <span class="fixed-number"></span>pounds = 
+                            <span id="kilos"></span>kilos
+                        </p>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
