@@ -4,4 +4,4 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 # unit-converter
 Insert a number and you will get it converted to different magnitudes.<br />
-This is my first challenge accomplished taking the Frontend Career Path course at Scrimba.
+This is my first excercise taking the Frontend Career Path course at Scrimba.
